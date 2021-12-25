@@ -6,9 +6,9 @@
     <marquee width = 43% direction><b><i>Jangan Lupa Unsubrek</i></b></marquee>
 <p>Hai, ini adalah website latihan saya,<br>  terima kasih telah berkunjung :)</p>
 <p>
-<a href="https://youtube.com/channel/UCC0-sEscb2BtFwc9pGs0Cng"><img src="youtube-icon.png" height="23px"></a>
-<a href=https://gitlab.com/fajaralfrzi><img src="gitlab-icon.png" height="23px"></a>
-<a href="https://github.com/jarggpt"><img src="github-icon.png" height=23px></a><br></p>
+<a href="https://youtube.com/channel/UCC0-sEscb2BtFwc9pGs0Cng"><img src="images/youtube-icon.png" height="23px"></a>
+<a href=https://gitlab.com/fajaralfrzi><img src="images/gitlab-icon.png" height="23px"></a>
+<a href="https://github.com/jarggpt"><img src="images/github-icon.png" height=23px></a><br></p>
 <p>
 <?php
 $file=fopen("ggpt.txt", "r") or die("file not found");
