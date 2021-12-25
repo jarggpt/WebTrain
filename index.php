@@ -2,25 +2,27 @@
   <head>
     <title>FajarAlfa</title>
   </head>
-  <body>
-    <marquee width = 43% direction><b>Jangan Lupa Unsubrek</b></marquee>
+  <body style="font-size:14px;">
+    <marquee width = 43% direction><b><i>Jangan Lupa Unsubrek</i></b></marquee>
 <p>Hai, ini adalah website latihan saya,<br>  terima kasih telah berkunjung :)</p>
-<ul>
-<li>Channel Youtube Saya : <a href="https://youtube.com/channel/UCC0-sEscb2BtFwc9pGs0Cng">FajarAlfa</a></li>
-<li>GitHub : <a href="https://github.com/jarggpt">jarggpt</a></li>
-<li>Test : <a href=/tentang.php>link</a></li>
-</ul>
-
+<p>
+<a href="https://youtube.com/channel/UCC0-sEscb2BtFwc9pGs0Cng"><img src="youtube-icon.png" height="23px"></a>
+<a href=https://gitlab.com/fajaralfrzi><img src="gitlab-icon.png" height="23px"></a>
+<a href="https://github.com/jarggpt"><img src="github-icon.png" height=23px></a><br></p>
+<p>
 <?php
 $file=fopen("ggpt.txt", "r") or die("file not found");
+echo "<ul>";
 while(!feof($file)){
-  echo fgets($file)."<br>";
+  echo "<li>".fgets($file)."<br></li>";
 }
+echo "</ul>";
 fclose($file);
 ?>
 
 <br>
-TimeLapse Rakit PC :<br>
+Time Lapse Rakit PC :<br>
 <iframe src="https://www.youtube.com/embed/9QbSKT2YeYg"></iframe>
+</p>
   </body>
 </html>
